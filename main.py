@@ -13,7 +13,7 @@ def index():
             <title>こんにちは</title>
         </head>
         <body>
-            <h1></h1>
+            <h1>こんにちは</h1>
         </body>
     </html>
     """
