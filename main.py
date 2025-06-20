@@ -4,6 +4,7 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse #インポート
 
 ### コードいろいろ... ###
+app = FastAPI()
 
 @app.get("/index")
 def index():
@@ -19,7 +20,6 @@ def index():
     """
     return HTMLResponse(content=html_content, status_code=200)
 
-app = FastAPI()
 
 
 @app.get("/")
